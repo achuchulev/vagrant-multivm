@@ -2,7 +2,7 @@
 
 # check if mysql is installed
 # install mysql if not installed
-which mysql-server || {
+which mysql || {
 
 echo "No, mysql is not installed. Installing MySQL ...."
 

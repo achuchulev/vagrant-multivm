@@ -18,4 +18,3 @@ which nginx || {
 
 # start nginx service
 service nginx start
-

@@ -9,6 +9,6 @@ Vagrant.configure("2") do |config|
 
     config.vm.define vm_name="mysql" do |node|
       node.vm.box = "achuchulev/centos7_mysql"
-      node.vm.hostname = mysql
+      node.vm.hostname = "mysql"
   end
 end
